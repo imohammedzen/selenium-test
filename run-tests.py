@@ -8,7 +8,7 @@ echo '#### Activate Virtual Environment ####'
 source $VIRTUAL_ENV_NAME/bin/activate
 
 echo '#### Install requirements ####'
-pip install selenium
+pip install -r requirements.txt
 
 echo '#### Run tests ####'
 
