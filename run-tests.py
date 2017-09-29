@@ -15,5 +15,5 @@ echo '#### Run tests ####'
 echo "print('hello world')" > test.py
 xvfb-run python test.py
 
-echo ### deactivate virtual environment ###
+echo '### deactivate virtual environment ###'
 deactivate
