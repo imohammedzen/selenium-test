@@ -13,9 +13,10 @@ pip install -r requirements.txt
 echo '#### Run tests ####'
 
 echo "print('hello world')" > test.py
-xvfb-run python test.py
+python test.py
+
 echo "********* Running github selenium script now **************"
-xvfb-run python github.py
+python github.py
 
 echo '### deactivate virtual environment ###'
 deactivate
